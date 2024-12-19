@@ -1,0 +1,5280 @@
+@import url(https://db.onlinewebfonts.com/c/932d2c43862bc10d3150ef2c721ee753?family=CoFo+Sans);
+@font-face {
+    font-family: myFont;
+    src: url(assets/recoleta-font/RecoletaAlt-Bold.ttf);
+}
+@font-face {
+    font-family: new font;
+    src: url(assets/cofo-sans/CoFoSans-Regular.ttf);
+}
+@font-face {
+    font-family: h3 font;
+    src: url(assets/cofo-sans/CoFoSans-Bold.ttf);
+}
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: "new font";
+}
+button{
+    font-family: "new font";
+}
+h2{
+    font-family: "myFont";
+    word-spacing: -1px;
+}
+h3{
+    font-family: "h3 font";
+    font-size: 25px;
+}
+p{
+    font-family: "new font";
+}
+.breadwave img{
+    height: 22px;
+    margin-top: 10px;
+}
+.container{
+    max-width: 100%;
+    overflow: hidden;
+}
+span{
+    color: rgb(240,123,34);
+}
+.globally{
+    font-weight: 1000;
+}
+.first-container{
+    background: rgb(0, 0, 0, 0.815);
+    background-image: url(assets/bg-placeholder-vid-min.SumXvtmL.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    opacity: 95%;
+    padding-top: 107px;
+    padding-bottom: 120px;
+    color: white;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding-top: 70px;
+    position: fixed;
+    background-color: transparent;
+    transition: background-color 0.4s ease-in-out;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    padding-right: 157px;
+    padding-left: 157px;
+    opacity: 90%;
+}
+.cross-sec{
+    text-align: right;
+    display: block;
+}
+nav.scrolled{
+    background-color: rgb(29,31,29);
+    padding-top: 0px;
+}
+.links{
+    display: flex;
+    gap: 5px;
+}
+.links img{
+    transition: transform 0.4s ease;
+}
+.links:hover img{
+    transform: translateX(5px);
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 16px;
+    margin-right: -40px;
+    font-weight: 200;
+}
+.list a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.4s ease-in-out;
+}
+.fien{
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+.hamburger img{
+    display: none;
+}
+.nav-button{
+    display: block;
+}
+.nav-list{
+    display: block;
+}
+nav button{
+    padding-top: 13px;
+    padding-bottom: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 105px;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+nav button a{
+    text-decoration: none;
+    color: black;
+}
+.bt1{
+    background-color: transparent;
+}
+.bt1 a{
+    text-decoration: none;
+    color: white;
+
+}
+.text-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 145px;
+    padding-right: 157px;
+    padding-left: 157px;
+    
+}
+.text1 h2{
+    color: white;
+    font-family: "myFont";
+    font-size: 48px;
+    font-weight: bolder;
+    padding-bottom: 3px;
+}
+.text1 a{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;        
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    padding-bottom: 30px;
+}
+.explore .recharge{
+    background-position: 0px 26px;
+}
+.explore p{
+    font-size: 20px;
+    font-weight: 500;
+    background-image: url(assets/favicon.png);
+    background-repeat: no-repeat;
+    background-size: 3%;
+    background-position: 0px 15px;
+    padding: 4.5px;
+    padding-left: 24px;
+    padding-top: 6px;
+    line-height: 24px;
+}
+.explore .globally{
+    color: white;
+}
+form{
+    background-color: rgb(99,100,97);
+    width: 455px;
+    height: 420px;
+    padding: 24px;
+    border-radius: 10px;
+    margin-top: -50px;
+}
+form button{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(240,123,34);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+form p{
+    text-align: center;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    padding-top: 10px;
+}
+.form1-text{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -1px;
+
+}
+.form1-text a{
+    color: rgb(240,123,34);
+}
+#firstname{
+    padding: 23px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+input{
+    background-color: rgb(138,138,137);
+    outline: none;
+}
+input::placeholder{
+    font-family: "new font";
+    position: relative;
+    left: -13px;
+    font-size: 16px;
+    color: white;
+}
+input:focus{
+    background-color: white;
+}
+input:focus::placeholder{
+    color: rgb(240,123,34);
+    font-size: small;
+    font-weight: bold;
+    padding-top: 20px;
+    position: relative;
+    bottom: 20px;
+    left: -18px;
+}
+#lastname{
+    padding: 23px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+#email{
+    padding: 23px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+.hidden{
+    position: absolute;
+    display: none;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    margin-left: -90px;
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 220px; 
+    width: 190px;
+    list-style: none;
+}
+.hidden a{
+    color: black;
+}
+.hidden a p{
+    background-color: rgb(240,123,34);
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+    width: 90px;
+    padding: 7px;
+    padding-bottom: 8px;
+    text-align: left;
+    text-align: center;
+    margin-top: 5px;
+}
+.more:hover .hidden{
+    display: block;
+}
+.listing{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 10px;
+}
+
+
+
+
+.second-container{
+    width: 100%;
+    background-image: url(assets/img-sellers-spot.svg);
+    background-repeat: no-repeat;
+    background-position: 630px 340px;
+    background-size: 37%;
+    padding-top: 120px;
+    padding-right: 157px;
+    padding-left: 157px;
+    padding-bottom: 100px;
+    border-bottom: 3px solid rgb(245,245,245);
+}
+.second-container .first-text h2{
+    font-family: "myFont";
+    font-size: 32px;
+    font-weight: 1000;
+    padding-bottom: 150px;
+    width: 450px;
+    line-height: 35px;
+}
+
+.sellers{
+    display: flex;
+    justify-content: center;
+    width: 95px;
+    padding: 7px;
+    margin-bottom: 7px;
+    background-color: rgb(241,231,253);
+    border-radius: 20px;
+    color: rgb(141,60,242);
+    font-weight: 600;
+    font-size: 14px;
+}
+.text-p{
+    font-size: 20px;
+    padding-bottom: 45px;
+    width: 350px;
+}
+.text-p .globally{
+    color: black;
+}
+.text-btn{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.text-btn button{
+    color: white;
+    padding: 15px;
+    background-color: rgb(240,123,34);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 155px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+}
+.text-btn a{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    font-weight: 600;
+}
+.moving-slides{
+    width: 100%;
+    left: 0;
+    height: 150px;
+    overflow: hidden;
+    margin-top: 110px;
+    letter-spacing: 0.3px;
+    position: relative;
+    z-index: -1;
+    font-weight: 600;
+}
+.moving-slides>.first{
+    width: 200%;
+    padding: 12px 24px;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    gap: 20px;  
+    animation-name: move;
+    animation-timing-function: linear;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes move{
+    0%{
+         translate: 0%;
+    }
+    100%{
+        translate: -20%;        
+    }
+}
+.moving-slides>.first div{
+    border: 2px solid #f7f8f9;
+    color: black;
+    width: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 45px;
+    border-radius: 30px;
+}
+.moving-slides img{
+    height: 44px;
+}
+.moving-slides>.first div p{
+    font-size: 20px;
+    font-family: "new font";
+    margin: 0px 24px 0px 16px;
+    font-weight: bolder;
+}
+.moving-slides>.second{
+    width: 200%;
+    padding: 12px 24px;
+    justify-content: start;
+    align-items: start;
+    display: flex;
+    gap: 20px;
+    animation-name: move2;
+    animation-timing-function: linear;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes move2{
+    0%{
+         translate: -20%;
+    }
+    100%{
+        translate: 0%;        
+    }
+}
+.moving-slides>.second div{
+    border: 2px solid #f7f8f9;
+    color: black;
+    width: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 47px;
+    border-radius: 30px;
+}
+.moving-slides>.second div p{
+    font-size: 20px;
+    font-family: "new font";
+    margin: 0px 24px 0px 16px;
+    font-weight: bolder;
+}
+.moving-slides>.second .cart{
+    color: #f07d22;
+    border: 2px solid rgb(250,239,230);
+}
+
+
+.third-container{
+    width: 100%;
+    padding-top: 120px;
+    padding-right: 157px;
+    padding-left: 157px;
+    padding-bottom: 200px;
+    background-image: url(assets/img-aff-spot.svg);
+    background-repeat: no-repeat;
+    background-position: 650px 360px;
+    background-size: 36%;
+}
+.third-container .first-text p{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: rgb(240,41,40);
+    padding: 7px;
+    background-color: rgb(253,231,231);
+    width: 110px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    border-radius: 20px;
+}
+.third-container .first-text h2{
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 145px;
+    width: 550px;
+    line-height: 35px;
+}
+.text-p{
+    font-size: 20px;
+    width: 300px;
+}
+
+
+
+.fourth-container{
+    width: 100%;
+    padding-top: 120px;
+    padding-right: 157px;
+    padding-left: 157px;
+    padding-bottom: 210px;
+    background-color: rgb(247,248,249);
+    background-image: url(assets/ic-mart-more.svg);
+    background-repeat: no-repeat;
+    background-position: 500px 310px;
+    background-size: 21%;
+}
+.fourth-container .first-text h2{
+    font-size: 32px;
+    padding-bottom: 260px;
+    width: 550px;
+    line-height: 35px;
+}
+.enterprenuer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.enterprenuer button{
+    padding: 16px;
+    width: 155px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(240,123,34);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+.enterprenuer p{
+    font-size: 20px;
+    padding-bottom: 30px;
+    width: 300px;
+}
+.enterprenuer h3{
+    font-size: 20px;
+    width: 300px;
+}
+.earn{
+    display: flex;
+    flex-direction: column;
+    width: 293px;
+    gap: 40px;
+    margin-left: 658px;
+    margin-top: -300px;
+}
+.earn h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.earn p{
+    font-size: 16px;
+    
+}
+.earn a{
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+
+.fifth-container{
+    width: 100%;
+    padding-top: 120px;
+    padding-right: 157px;
+    padding-left: 157px;
+}
+.fifth-container .first-text h2{
+    font-size: 32px;
+    line-height: 35px;
+    padding-bottom: 75px;
+    width: 550px;
+}
+.fifth-container .second-text{
+    padding: 43px;
+    background-color: rgb(247,248,249);
+    height: 380px;
+}
+.currencies{
+    padding-bottom: 50px;
+}
+.border{
+    display: flex;
+    gap: 45px;
+}
+.border-text{
+    width: 530px;
+}
+.border-side{
+    width: 4px;
+    background-color: rgb(240,123,34);
+    border-radius: 10px;
+    height: 23px;
+}
+.border-text h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+    
+}
+.border-text p{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.border-text .icons{
+    display: flex;
+    gap: 30px;
+}
+.border-text .icons img{
+    height: 16px;
+}
+.fifth-container .second-text button{
+    padding: 15px;
+    width: 160px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(240,123,34);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.fifth-container .second-text a{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+}
+.button-link{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding-top: 20px;
+}
+
+
+.sixth-container{
+    width: 100%;
+    padding-top: 120px;
+    padding-right: 157px;
+    padding-bottom: 100px;
+    padding-left: 157px;
+    background-image: url(assets/img-buyers-sec.svg);
+    background-repeat: no-repeat;
+    background-position: 620px 350px;
+    background-size: 37%;
+}
+.sixth-container .first-text{
+    padding-bottom: 180px;
+}
+.sixth-container .first-text p{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: rgb(240,132,50);
+    padding: 6px;
+    background-color: rgb(253,241,231);
+    width: 95px;
+    font-weight: 600;
+    border-radius: 20px;
+    letter-spacing: 0.4px;
+}
+.sixth-container .first-text h2{
+    font-size: 32px;
+    line-height: 35px;
+    padding-top: 10px;
+    width: 500px;
+}
+.sixth-container p{
+    font-size: 20px;
+    width: 350px;
+}
+
+
+
+.seventh-container{
+    width: 100%;
+    padding-top: 120px;
+    padding-right: 157px;
+    padding-left: 157px;
+    font-size: 12px;
+}
+.seventh-container .border-top{
+    border-bottom: 2pt solid rgb(242,242,242);
+}
+
+.seventh-container .top1{
+    border-top: 2pt solid rgb(242,242,242);
+}
+.display-norm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top1:hover .display-under{
+    display: block;
+}
+.top1 .display-under{
+    display: none;
+    margin-top: -30px;
+}
+.top1 .display-under p{
+    font-size: 15px;
+    font-weight: 200;
+}
+.top1 .display-under .one-under, .two-under{
+    margin-top: -30px;
+}
+.top1 .display-under span{
+    color: black;
+    font-weight: 700;
+}
+
+
+.top2:hover .display-under{
+    display: block;
+}
+.top2 .display-under{
+    display: none;
+    margin-top: -30px;
+    padding-bottom: 50px;
+}
+.top2 .display-under p{
+    font-size: 15px;
+    font-weight: 200;
+}
+.top2 .display-under span{
+    color: black;
+    font-weight: 600;
+}
+
+
+.top3:hover .display-under{
+    display: block;
+}
+.top3 .display-under{
+    display: none;
+    margin-top: -30px;
+    padding-bottom: 50px;
+}
+.top3 .display-under p{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+
+.top4:hover .display-under{
+    display: block;
+}
+.top4 .display-under{
+    display: none;
+    margin-top: -30px;
+    padding-bottom: 50px;
+}
+.top4 .display-under p{
+    font-size: 15px;
+    font-weight: 200;
+}
+.top4 .display-under span{
+    color: black;
+    font-weight: 600;
+}
+
+
+.top5:hover .display-under{
+    display: block;
+}
+.top5 .display-under{
+    display: none;
+    margin-top: -30px;
+    padding-bottom: 50px;
+}
+.top5 .display-under p{
+    font-size: 15px;
+    font-weight: 200;
+}
+.top5 .display-under span{
+    color: black;
+    font-weight: 600;
+}
+
+
+.seventh-container p{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    letter-spacing: 0.4px;
+}
+.seventh-container button{
+    padding: 15px;
+    width: 130px;
+    margin-top: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(29,31,29);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+.eight-container{
+    width: 100%;
+    padding-top: 120px;
+    padding-right: 157px;
+    padding-bottom: 150px;
+    padding-left: 157px;
+}
+.eight-container .box{
+    background-color: rgb(29,31,29);
+    background-image: url(assets/bg-cta.svg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: -260px;
+    color: white;
+    height: 458px;
+    padding-top: 80px;
+    padding-right: 157px;
+    padding-left: 157px;
+}
+.eight-container .box h2{
+    font-size: 47px;
+    line-height: 55px;
+    padding-bottom: 30px;
+}
+.eight-container .box button{
+    padding: 15px;
+    width: 190px;
+    margin-top: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(240,123,34);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+
+.ninth-container{
+    width: 100%;
+    background-color: rgb(242,242,242);
+    padding-top: 100px;
+    padding-bottom: 110px;
+    padding-right: 157px;
+    padding-left: 157px;
+}
+.ninth-container a{
+    text-decoration: none;
+    color: black;
+}
+.ninth-container .text1-icons{
+    display: flex;
+    gap: 15px;
+    color: white;
+}
+.ninth-container .text1-icons a{
+    font-size: 18px;
+    background-color: black;
+    padding: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: white;
+}
+.ninth-container .text-continer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 120px;
+}
+.ninth-container .text-continer .copyright a{
+    font-weight: 200;
+}
+.copyright{
+    padding-bottom: 40px;
+}
+#copyright{
+    font-size: 10px;
+}
+.ninth-container .text-continer .text1 span{
+    color: black;
+    font-size: 12px;
+}
+#facebook{
+    font-size: 14px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.text2{
+    display: flex;
+    gap: 70px;
+}
+.text2 .bold{
+    padding-bottom: 15px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.text2a{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    font-size: 16px;
+}
+.text2b{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    font-size: 16px;
+}
+.text2c{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    font-size: 16px;
+}
+.last-p p{
+    font-size: 14px;
+    padding-bottom: 18px;
+}
+
+
+
+/* responsiveness */
+@media (width:2560px){
+    form{
+        width: 1100px;
+    }
+    .explore{
+        width: 600px;
+    }
+    .second-container{
+        background-position: 1230px 300px;
+        background-size: 22%;
+        padding-left: 160px;
+        padding-bottom: 150px;
+    }
+    .second-container .first-text h2{
+        font-size: 33px;
+        width: 1200px;
+        padding-bottom: 200px;
+    }
+    .text-p{
+        width: 800px;
+        font-size: 20px;
+    }
+    .moving-slides{
+        width: 100%;
+        left: 0;
+        height: 150px;
+        overflow: hidden;
+        margin-top: 200px;
+        letter-spacing: 0.3px;
+        font-weight: 600;
+    }
+    .moving-slides>.first{
+        width: 200%;
+        padding: 12px 24px;
+        justify-content: start;
+        align-items: center;
+        display: flex;
+        gap: 20px;  
+        animation-name: move;
+        animation-timing-function: linear;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+    
+    }
+    @keyframes move{
+        0%{
+             translate: 0%;
+        }
+        100%{
+            translate: -20%;        
+        }
+    }
+    .moving-slides>.first div{
+        border: 2px solid #f7f8f9;
+        color: rgb(119,125,146);
+        width: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 45px;
+        border-radius: 30px;
+    }
+    .moving-slides>.first div p{
+        font-size: 20px;
+        font-family: "new font";
+        margin: 0px 24px 0px 16px;
+        font-weight: bolder;
+    }
+    .moving-slides>.second{
+        width: 200%;
+        padding: 12px 24px;
+        justify-content: start;
+        align-items: start;
+        display: flex;
+        gap: 20px;
+        animation-name: move2;
+        animation-timing-function: linear;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes move2{
+        0%{
+             translate: -20%;
+        }
+        100%{
+            translate: 0%;        
+        }
+    }
+    .moving-slides>.second div{
+        border: 2px solid #f7f8f9;
+        color: rgb(119,125,146);
+        width: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 47px;
+        border-radius: 30px;
+    }
+    .moving-slides>.second div p{
+        font-size: 20px;
+        font-family: "new font";
+        margin: 0px 24px 0px 16px;
+        font-weight: bolder;
+    }
+    .moving-slides>.second .cart{
+        color: #f07d22;
+        border: 2px solid rgb(250,239,230);
+    }
+
+
+
+    .third-container{
+        background-position: 1280px 325px;
+        background-size: 23%;
+        padding-left: 160px;
+        padding-bottom: 250px;
+    }
+    .third-container .first-text p{
+        font-weight: 600;
+    }
+    .third-container .first-text h2{
+        padding-bottom: 230px;
+        font-size: 33px;
+        width: 1320px;
+    }
+    .third-container .text-p{
+        width: 800px;
+    }
+
+
+    .fourth-container{
+        background-position: 1100px 250px;
+        background-size: 10%;
+        padding-left: 160px;
+        padding-right: 160px;
+        padding-bottom: 200px;
+    }
+    .fourth-container .first-text h2{
+        font-size: 32px;
+        padding-bottom: 240px;
+        width: 1200px;
+    }
+    .enterprenuer p{
+        font-size: 20px;
+        width: 800px;
+    }
+    .enterprenuer h3{
+        font-weight: 900;
+        font-size: 20px;
+        width: 800px;
+    }
+    .enterprenuer button{
+        width: 160px;
+        font-size: 15px;
+    }
+    .earn{
+        display: flex;
+        width: 800px;
+        flex-direction: column;
+        gap: 25px;
+        margin-left: 1490px;
+        margin-top: -190px;
+    }
+    .earn h3{
+        font-weight: 900;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .earn p{
+        font-size: 17px;
+        padding-bottom: 5px;
+    }
+    .earn a{
+        color: black;
+        font-size: 17px;
+    }
+    
+
+
+    .fifth-container{
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+    .fifth-container .first-text h2{
+        width: 1200px;
+        font-size: 33px;
+    }
+    .fifth-container .second-text{
+        padding-top: 50px;
+        height: 420px;
+    }
+    .border{
+        display: flex;
+        gap: 45px;
+    }
+    .border-side{
+        width: 3px;
+    }
+    .border-text{
+        width: 400px;
+    }
+    .border-text h3{
+        font-size: 20px;
+    }
+    .border-text p{
+        font-size: 17px;
+    }
+
+
+
+    .sixth-container{
+        background-position: 1300px 300px;
+        background-size: 22%;
+        padding-left: 160px;
+        padding-right: 160px;
+        padding-bottom: 300px;
+    }
+    
+.sixth-container .first-text{
+    padding-bottom: 250px;
+}
+    .sixth-container .first-text h2{
+        font-size: 33px;
+        width: 1150px;
+    }
+    .sixth-container p{
+        font-size: 21px;
+        width: 950px;
+    }
+
+
+    .seventh-container{
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+
+    .eight-container{
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+    .eight-container .box{
+        background-color: rgb(29,31,29);
+        background-image: url(assets/bg-cta.svg);
+        background-repeat: no-repeat;
+        background-size: 250%;
+        background-position: -600px 64px;
+        color: white;
+        height: 350px;
+        padding-top: 80px;
+        padding-left: 150px;
+        padding-right: 180px;
+    }
+    .eight-container .box h2{
+        font-size: 47px;
+        width: 1360px;
+        padding-bottom: 10px;
+    }
+    .eight-container .box p{
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+
+
+    .ninth-container{
+        padding-top: 100px;
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+    .ninth-container .text1-icons{
+        display: flex;
+        gap: 15px;
+        color: white;
+    }
+    .ninth-container .text1-icons a{
+        font-size: 16px;
+        background-color: black;
+        padding: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: white;
+    }
+    .ninth-container .text-continer{
+        display: flex;
+        margin-top: 10px;
+    }
+    .ninth-container .text-continer .copyright a{
+        font-weight: 200;
+    }
+    .copyright{
+        font-size: 17px;
+        padding-bottom: 60px;
+    }
+    #copyright{
+        font-size: 12px;
+    }
+    .ninth-container .text-continer .text1 span{
+        color: black;
+        font-size: 12px;
+    }
+    .text2{
+        gap: 400px;
+    }
+    .text2 p{
+        font-size: 17px;
+    }
+    .text2 .bold{
+        font-size: 17px;
+    }
+    .last-p p{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+}
+@media (min-width: 1600px) {
+    .moving-slides{
+        margin-top: 200px;
+    }
+}
+@media (max-width: 1024px) {
+
+    *{
+        margin: 0; 
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 100%;
+    }
+    .breadwave img{
+        height: 22px;
+        margin-left: 130px;
+    }
+    nav{
+        padding-right: 150px;
+        padding-left: 30px;
+        padding-top: 55px;
+        height: 80px;
+        gap: 20px;
+        justify-content: space-between;
+    }
+    .text-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-top: 165px;
+        padding-right: 20rem;
+        padding-left: 150px;
+    }
+    .text-container h2{
+        font-size: 49px;
+    }
+    .list{
+        display: flex;
+        list-style: none;
+        gap: 18px;
+        font-size: 12px;
+        margin-right: -50px;
+        font-weight: 200;
+    }
+    .nav button{
+        font-size: 12px;
+    }
+    .text1{
+        margin-top: -50px;
+    }
+    form{
+        width: 320px;
+        height: 420px;
+        padding: 23px;
+        border-radius: 10px;
+        margin-top: -390px;
+        margin-left: 400px;
+    }
+    .form1 button{
+        font-size: 15px;
+        padding: 14px;
+        border-radius: 7px;
+    }
+    .form1-text{
+        font-size: 16px;
+    }
+    input::placeholder{
+        font-size: 16px;
+    }
+    #firstname{
+        border-radius: 7px;
+        padding: 23px;
+    }
+    #lastname{
+        border-radius: 7px;
+        padding: 23px;
+    }
+    #email{
+        border-radius: 7px;
+        padding: 23px;
+    }
+    .explore{
+        width: 350px;
+    }
+    .explore p{
+        font-size: 20px;
+        background-size: 4.3%;
+        background-position: 0px 14px;
+    }
+    .explore .sell{
+        background-position: 0px 20px;
+    }
+    .explore .watch{
+        background-position: 0px 23px;
+    }
+    .links .link a{
+        margin-top: -12px;
+    }
+    .links a{
+        font-size: 16px;
+    }
+
+
+    .second-container{
+        background-position: 530px 450px;
+        background-size: 33%;
+        padding-left: 160px;
+    }
+    .second-container .first-text h2{
+        font-size: 33px;
+        width: 300px;
+        padding-bottom: 100px;
+    }
+    .text-p{
+        width: 260px;
+        font-size: 20px;
+    }
+    .moving-slides{
+        width: 100%;
+        left: 0;
+        height: 150px;
+        overflow: hidden;
+        margin-top: 110px;
+        letter-spacing: 0.3px;
+        font-weight: 600;
+    }
+    .moving-slides>.first{
+        /* width: 200%; */
+        padding: 12px 24px;
+        justify-content: start;
+        align-items: center;
+        display: flex;
+        gap: 20px;  
+        animation-name: move;
+        animation-timing-function: linear;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+    
+    }
+    @keyframes move{
+        0%{
+             translate: 0%;
+        }
+        100%{
+            translate: -20%;        
+        }
+    }
+    .moving-slides>.first div{
+        border: 2px solid #f7f8f9;
+        color: rgb(119,125,146);
+        width: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 45px;
+        border-radius: 30px;
+    }
+    .moving-slides img{
+        height: 44px;
+        margin-top: -2px;
+    }
+    .moving-slides>.first div p{
+        font-size: 18px;
+        font-family: "new font";
+        margin: 0px 24px 0px 16px;
+        font-weight: bolder;
+    }
+    .moving-slides>.second{
+        width: 200%;
+        padding: 12px 24px;
+        justify-content: start;
+        align-items: start;
+        display: flex;
+        gap: 20px;
+        animation-name: move2;
+        animation-timing-function: linear;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes move2{
+        0%{
+             translate: -20%;
+        }
+        100%{
+            translate: 0%;        
+        }
+    }
+    .moving-slides>.second div{
+        border: 2px solid #f7f8f9;
+        color: rgb(119,125,146);
+        width: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 47px;
+        border-radius: 30px;
+    }
+    .moving-slides>.second div p{
+        font-size: 17px;
+        font-family: "new font";
+        margin: 0px 24px 0px 16px;
+        font-weight: bolder;
+    }
+    .moving-slides>.second .cart{
+        color: #f07d22;
+        border: 2px solid rgb(250,239,230);
+    }
+    
+
+
+
+    .third-container{
+        background-position: 520px 425px;
+        background-size: 33%;
+        padding-left: 160px;
+        padding-bottom: 120px;
+    }
+    .third-container .first-text p{
+        font-weight: 600;
+    }
+    .third-container .first-text h2{
+        padding-bottom: 80px;
+        font-size: 33px;
+        width: 420px;
+    }
+
+
+    .fourth-container{
+        background-position: 400px 380px;
+        background-size: 22%;
+        padding-left: 160px;
+        padding-right: 160px;
+        padding-bottom: 130px;
+    }
+    .fourth-container .first-text h2{
+        font-size: 32px;
+        padding-bottom: 170px;
+        width: 400px;
+    }
+    .enterprenuer p{
+        font-size: 20px;
+        width: 200px;
+    }
+    .enterprenuer h3{
+        font-weight: 900;
+        font-size: 20px;
+        width: 200px;
+    }
+    .enterprenuer button{
+        width: 160px;
+        font-size: 15px;
+    }
+    .earn{
+        display: flex;
+        width: 200px;
+        flex-direction: column;
+        gap: 45px;
+        margin-left: 490px;
+        margin-top: -350px;
+    }
+    .earn h3{
+        font-weight: 900;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .earn p{
+        font-size: 17px;
+        padding-bottom: 5px;
+    }
+    .earn a{
+        color: black;
+        font-size: 17px;
+    }
+    
+
+
+    .fifth-container{
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+    .fifth-container .first-text h2{
+        width: 400px;
+        font-size: 33px;
+    }
+    .fifth-container .second-text{
+        padding-top: 50px;
+        height: 460px;
+    }
+    .bitgo{
+        margin-top: 40px;
+        margin-left: -360px;
+    }
+    .squad{
+        margin-top: 40px;
+    }
+    .border{
+        display: flex;
+        gap: 45px;
+    }
+    .border-side{
+        width: 2px;
+    }
+    .border-text{
+        width: 400px;
+    }
+    .border-text h3{
+        font-size: 20px;
+    }
+    .border-text p{
+        font-size: 17px;
+    }
+
+
+
+    .sixth-container{
+        background-position: 490px 500px;
+        background-size: 35%;
+        padding-left: 160px;
+        padding-right: 160px;
+        padding-bottom: 50px;
+    }
+    
+.sixth-container .first-text{
+    padding-bottom: 130px;
+}
+    .sixth-container .first-text h2{
+        font-size: 33px;
+        width: 340px;
+    }
+    .sixth-container p{
+        font-size: 21px;
+        width: 250px;
+    }
+
+
+    .seventh-container{
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+
+    .eight-container{
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+    .eight-container .box{
+        background-color: rgb(29,31,29);
+        background-image: url(assets/bg-cta.svg);
+        background-repeat: no-repeat;
+        background-size: 250%;
+        background-position: -600px 64px;
+        color: white;
+        height: 600px;
+        padding-top: 80px;
+        padding-left: 150px;
+        padding-right: 180px;
+    }
+    .eight-container .box h2{
+        font-size: 47px;
+        width: 360px;
+        padding-bottom: 10px;
+    }
+    .eight-container .box p{
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+
+
+    .ninth-container{
+        padding-top: 120px;
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+    .ninth-container .text1-icons{
+        display: flex;
+        gap: 15px;
+        color: white;
+    }
+    .ninth-container .text1-icons a{
+        font-size: 16px;
+        background-color: black;
+        padding: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: white;
+    }
+    .ninth-container .text-continer{
+        display: flex;
+        margin-top: 10px;
+    }
+    .ninth-container .text-continer .copyright a{
+        font-weight: 200;
+    }
+    .copyright{
+        font-size: 17px;
+        padding-bottom: 60px;
+        margin-top: 60px;
+    }
+    #copyright{
+        font-size: 12px;
+    }
+    .ninth-container .text-continer .text1 span{
+        color: black;
+        font-size: 12px;
+    }
+    .text2{
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 150px;
+        margin-left: 50px;
+    }
+    .text2 p{
+        font-size: 17px;
+    }
+    .text2 .bold{
+        font-size: 17px;
+    }
+    .last-p p{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+}
+
+
+@media (max-width: 996px){
+    *{
+        margin: 0; 
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 100%;
+    }
+    .breadwave img{
+        height: 22px;
+        margin-left: 130px;
+    }
+    nav{
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 55px;
+        height: 50px;
+        gap: 20px;
+    }
+    .text-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-top: 165px;
+        padding-right: 20rem;
+        padding-left: 178px;
+    }
+    .text-container h2{
+        font-size: 49px;
+    }
+    .nav-list{
+        display: none;
+    }
+    .nav-button{
+        display: none;
+    }
+    .text1{
+        margin-top: -50px;
+    }
+    form{
+        width: 320px;
+        height: 420px;
+        padding: 23px;
+        border-radius: 10px;
+        margin-top: -390px;
+        margin-left: 360px;
+    }
+    .form1 button{
+        font-size: 15px;
+        padding: 14px;
+        border-radius: 7px;
+    }
+    .form1-text{
+        font-size: 16px;
+    }
+    input::placeholder{
+        font-size: 16px;
+    }
+    #firstname{
+        border-radius: 7px;
+        padding: 23px;
+    }
+    #lastname{
+        border-radius: 7px;
+        padding: 23px;
+    }
+    #email{
+        border-radius: 7px;
+        padding: 23px;
+    }
+    .explore{
+        width: 320px;
+    }
+    .explore p{
+        font-size: 20px;
+        background-size: 4.3%;
+        background-position: 0px 14px;
+    }
+    .explore .sell{
+        background-position: 0px 20px;
+    }
+    .explore .watch{
+        background-position: 0px 23px;
+    }
+    .links .link a{
+        margin-top: -12px;
+    }
+    .links a{
+        font-size: 16px;
+    }
+
+
+    .second-container{
+        background-position: 530px 450px;
+        background-size: 33%;
+        padding-left: 160px;
+    }
+    .second-container .first-text h2{
+        font-size: 33px;
+        width: 300px;
+        padding-bottom: 100px;
+    }
+    .text-p{
+        width: 260px;
+        font-size: 20px;
+    }
+
+
+
+    .third-container{
+        background-position: 520px 425px;
+        background-size: 33%;
+        padding-left: 160px;
+        padding-bottom: 120px;
+    }
+    .third-container .first-text p{
+        font-weight: 600;
+    }
+    .third-container .first-text h2{
+        padding-bottom: 80px;
+        font-size: 33px;
+        width: 420px;
+    }
+
+
+    .fourth-container{
+        background-position: 400px 380px;
+        background-size: 22%;
+        padding-left: 160px;
+        padding-right: 160px;
+        padding-bottom: 130px;
+    }
+    .fourth-container .first-text h2{
+        font-size: 32px;
+        padding-bottom: 170px;
+        width: 400px;
+    }
+    .enterprenuer p{
+        font-size: 20px;
+        width: 200px;
+    }
+    .enterprenuer h3{
+        font-weight: 900;
+        font-size: 20px;
+        width: 200px;
+    }
+    .enterprenuer button{
+        width: 160px;
+        font-size: 15px;
+    }
+    .earn{
+        display: flex;
+        width: 200px;
+        flex-direction: column;
+        gap: 45px;
+        margin-left: 490px;
+        margin-top: -350px;
+    }
+    .earn h3{
+        font-weight: 900;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .earn p{
+        font-size: 17px;
+        padding-bottom: 5px;
+    }
+    .earn a{
+        color: black;
+        font-size: 17px;
+    }
+    
+
+
+    .fifth-container{
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+    .fifth-container .first-text h2{
+        width: 400px;
+        font-size: 33px;
+    }
+    .fifth-container .second-text{
+        padding-top: 50px;
+        height: 460px;
+    }
+    .bitgo{
+        margin-top: 40px;
+        margin-left: -360px;
+    }
+    .squad{
+        margin-top: 40px;
+    }
+    .border{
+        display: flex;
+        gap: 45px;
+    }
+    .border-side{
+        width: 2px;
+    }
+    .border-text{
+        width: 400px;
+    }
+    .border-text h3{
+        font-size: 20px;
+    }
+    .border-text p{
+        font-size: 17px;
+    }
+
+
+
+    .sixth-container{
+        background-position: 490px 500px;
+        background-size: 35%;
+        padding-left: 160px;
+        padding-right: 160px;
+        padding-bottom: 50px;
+    }
+    
+.sixth-container .first-text{
+    padding-bottom: 130px;
+}
+    .sixth-container .first-text h2{
+        font-size: 33px;
+        width: 340px;
+    }
+    .sixth-container p{
+        font-size: 21px;
+        width: 250px;
+    }
+
+
+    .seventh-container{
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+
+    .eight-container{
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+    .eight-container .box{
+        background-color: rgb(29,31,29);
+        background-image: url(assets/bg-cta.svg);
+        background-repeat: no-repeat;
+        background-size: 250%;
+        background-position: -600px 64px;
+        color: white;
+        height: 600px;
+        padding-top: 80px;
+        padding-left: 150px;
+        padding-right: 180px;
+    }
+    .eight-container .box h2{
+        font-size: 47px;
+        width: 360px;
+        padding-bottom: 10px;
+    }
+    .eight-container .box p{
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+
+
+    .ninth-container{
+        padding-top: 120px;
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+    .ninth-container .text1-icons{
+        display: flex;
+        gap: 15px;
+        color: white;
+    }
+    .ninth-container .text1-icons a{
+        font-size: 16px;
+        background-color: black;
+        padding: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: white;
+    }
+    .ninth-container .text-continer{
+        display: flex;
+        margin-top: 10px;
+    }
+    .ninth-container .text-continer .copyright a{
+        font-weight: 200;
+    }
+    .copyright{
+        font-size: 17px;
+        padding-bottom: 60px;
+        margin-top: 60px;
+    }
+    #copyright{
+        font-size: 12px;
+    }
+    .ninth-container .text-continer .text1 span{
+        color: black;
+        font-size: 12px;
+    }
+    .text2{
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 150px;
+        margin-left: 50px;
+    }
+    .text2 p{
+        font-size: 17px;
+    }
+    .text2 .bold{
+        font-size: 17px;
+    }
+    .last-p p{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 870px){
+    .container{
+        width: 100%;
+    }
+    .breadwave img{
+        height: 22px;
+        margin-left: 130px;
+    }
+    nav{
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 55px;
+        height: 50px;
+        gap: 20px;
+    }
+    .text-container{
+        flex-direction: column;
+        padding-left: 160px;
+    }
+    .text-container h2{
+        font-size: 49px;
+        width: 200px;
+    }
+    .nav-list{
+        display: none;
+    }
+    .nav-button{
+        display: none;
+    }
+    .text1{
+        margin-top: -50px;
+    }
+    form{
+        width: 250px;
+        height: 440px;
+        padding: 23px;
+        border-radius: 10px;
+        margin-top: -480px;
+        margin-left: 300px;
+    }
+    .form1 button{
+        font-size: 15px;
+        padding: 14px;
+        border-radius: 7px;
+    }
+    .form1-text{
+        font-size: 16px;
+    }
+    input::placeholder{
+        font-size: 16px;
+    }
+    #firstname{
+        border-radius: 7px;
+        padding: 23px;
+    }
+    #lastname{
+        border-radius: 7px;
+        padding: 23px;
+    }
+    #email{
+        border-radius: 7px;
+        padding: 23px;
+    }
+    .explore{
+        width: 250px;
+    }
+    .explore p{
+        font-size: 20px;
+        background-size: 5.3%;
+        background-position: 0px 14px;
+    }
+    .explore .sell{
+        background-position: 0px 20px;
+    }
+    .explore .watch{
+        background-position: 0px 23px;
+    }
+    .links .link a{
+        margin-top: -12px;
+    }
+    .links a{
+        font-size: 16px;
+    }
+
+
+    .second-container{
+        background-position: 430px 450px;
+        background-size: 33%;
+        padding-left: 160px;
+    }
+    .second-container .first-text h2{
+        font-size: 33px;
+        width: 300px;
+        padding-bottom: 100px;
+    }
+    .text-p{
+        width: 210px;
+        font-size: 20px;
+    }
+
+
+
+    .third-container{
+        background-position: 430px 465px;
+        background-size: 33%;
+        padding-left: 160px;
+        padding-bottom: 120px;
+    }
+    .third-container .first-text h2{
+        padding-bottom: 80px;
+        font-size: 33px;
+        width: 300px;
+    }
+
+
+    .fourth-container{
+        background-position: 380px 400px;
+        background-size: 20%;
+        padding-left: 160px;
+        padding-right: 160px;
+        padding-bottom: 130px;
+    }
+    .fourth-container .first-text h2{
+        font-size: 32px;
+        padding-bottom: 170px;
+        width: 400px;
+    }
+    .enterprenuer p{
+        font-size: 20px;
+        width: 150px;
+    }
+    .enterprenuer h3{
+        font-weight: 900;
+        font-size: 20px;
+        width: 150px;
+    }
+    .enterprenuer button{
+        width: 160px;
+        font-size: 15px;
+    }
+    .earn{
+        display: flex;
+        width: 150px;
+        flex-direction: column;
+        gap: 45px;
+        margin-left: 430px;
+        margin-top: -350px;
+    }
+    .earn h3{
+        font-weight: 900;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .earn p{
+        font-size: 17px;
+        padding-bottom: 5px;
+    }
+    .earn a{
+        color: black;
+        font-size: 17px;
+    }
+    
+
+
+    .fifth-container{
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+    .fifth-container .first-text h2{
+        width: 400px;
+        font-size: 33px;
+    }
+    .fifth-container .second-text{
+        padding-top: 50px;
+        height: 460px;
+    }
+    .bitgo{
+        margin-top: 40px;
+        margin-left: -360px;
+    }
+    .squad{
+        margin-top: 40px;
+    }
+    .border{
+        display: flex;
+        gap: 45px;
+    }
+    .border-side{
+        width: 2px;
+    }
+    .border-text{
+        width: 400px;
+    }
+    .border-text h3{
+        font-size: 20px;
+    }
+    .border-text p{
+        font-size: 17px;
+    }
+
+
+
+    .sixth-container{
+        background-position: 430px 650px;
+        background-size: 35%;
+        padding-left: 160px;
+        padding-right: 160px;
+        padding-bottom: 50px;
+    }
+    
+.sixth-container .first-text{
+    padding-bottom: 130px;
+}
+    .sixth-container .first-text h2{
+        font-size: 33px;
+        width: 280px;
+    }
+    .sixth-container p{
+        font-size: 21px;
+        width: 200px;
+    }
+
+
+    .seventh-container{
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+
+    .eight-container{
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+    .eight-container .box{
+        background-color: rgb(29,31,29);
+        background-image: url(assets/bg-cta.svg);
+        background-repeat: no-repeat;
+        background-size: 250%;
+        background-position: -600px 64px;
+        color: white;
+        height: 600px;
+        padding-top: 80px;
+        padding-left: 150px;
+        padding-right: 180px;
+    }
+    .eight-container .box h2{
+        font-size: 47px;
+        width: 360px;
+        padding-bottom: 10px;
+    }
+    .eight-container .box p{
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+
+
+    .ninth-container{
+        padding-top: 120px;
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+    .ninth-container .text1-icons{
+        display: flex;
+        gap: 13px;
+        color: white;
+    }
+    .ninth-container .text1-icons a{
+        font-size: 16px;
+        background-color: black;
+        padding: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: white;
+    }
+    .ninth-container .text-continer{
+        display: flex;
+        margin-top: 10px;
+    }
+    .ninth-container .text-continer .copyright a{
+        font-weight: 200;
+    }
+    .copyright{
+        font-size: 17px;
+        padding-bottom: 30px;
+        margin-top: 60px;
+    }
+    #copyright{
+        font-size: 12px;
+    }
+    .ninth-container .text-continer .text1 span{
+        color: black;
+        font-size: 12px;
+    }
+    .text2{
+        display: grid;
+        grid-template-columns: 130px 130px;
+        grid-template-rows: 150px;
+        margin-left: 10px;
+    }
+    .text2 p{
+        font-size: 17px;
+    }
+    .text2 .bold{
+        font-size: 17px;
+    }
+    .last-p p{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+}
+
+
+@media (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+    .hamburger img{
+        display: block;
+        height: 28px;
+    }
+    .hamburger:hover .fien{
+        background-color: white;
+        width: 1402px;
+        height: 100vh;
+        z-index: 999;
+        position: fixed;
+        top: 0;
+    }
+    .hamburger:hover .nav-list{
+        display: block;
+        justify-content: center;
+        position: relative;
+        width: max-content;
+        top: 0;
+    }
+    .hamburger:hover .nav-button{
+        display: block;
+    }
+    .hamburger:hover .list{
+        color: black;
+        gap: 15px;
+        justify-content: center;
+    }
+    .hamburger:hover .list a{
+        color: black;
+    }
+    .hamburger:hover .cross-sec img{
+        display: none;
+    }
+    img{
+        height: 12px;
+        margin-top: 5px;
+    }
+    .breadwave img{
+        height: 22px;
+        margin-left: -10px;
+    }
+    .first-container{
+        width: 100%;
+
+    }
+    nav{
+        padding-top: 0px;
+        height: 82px;
+    }
+    .text-container{
+        flex-direction: column;
+        padding: 165px 20px 0px;
+    }
+    .text-container h2{
+        font-size: 38px;
+        margin-top: -10px;
+        padding-bottom: 1px;
+    }
+    form{
+        width: 350px;
+        height: 430px;
+        padding: 23px;
+        border-radius: 10px;
+        margin-top: -360px;
+        margin-left: 380px;
+    }
+    .explore{
+        width: 380px;
+    }
+    .explore p{
+        font-size: 18px;
+        background-size: 4%;
+        background-position: -1px 12px;
+    }
+    .explore .sell{
+        background-position: -1px 12px;
+    }
+    .explore .watch{
+        background-position: -1px 12px;
+    }
+    .links a{
+        font-size: 18px;
+    }
+    input{
+        font-size: 18px;
+    }
+    input::placeholder{
+        font-size: 16px;
+    }
+    #firstname{
+        padding: 22px;
+    }
+    #lastname{
+        padding: 22px;
+    }
+    #email{
+        padding: 22px;
+    }
+    form button{
+        padding: 25px;  
+        font-size: 23px;
+    }
+    .form1{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding-top: 10px;
+    }
+    .form1-text{
+        font-size: 17px;
+    }
+
+
+
+
+    .second-container{
+        width: 100%;
+        background-position: 380px 330px;
+        background-size: 48%;
+        padding-left: 20px;
+    }   
+    .second-container .first-text h2{
+        font-size: 30px;
+        width: 450px;
+        padding-bottom: 70px;
+    }
+    .first-text p{
+        font-size: 16px;
+        width: 100px;
+    }
+    .text-p{
+        width: 300px;
+        font-size: 19px;
+    }
+    .moving-slides{
+        width: 122%;
+        left: 0;
+        height: 150px;
+        overflow: hidden;
+        margin-top: 110px;
+        letter-spacing: 0.3px;
+        font-weight: 600;
+    }
+    .moving-slides>.first{
+        /* width: 200%; */
+        padding: 12px 24px;
+        justify-content: start;
+        align-items: center;
+        display: flex;
+        gap: 20px;  
+        animation-name: move;
+        animation-timing-function: linear;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+    
+    }
+    @keyframes move{
+        0%{
+             translate: 0%;
+        }
+        100%{
+            translate: -20%;        
+        }
+    }
+    .moving-slides>.first div{
+        border: 2px solid #f7f8f9;
+        color: rgb(119,125,146);
+        width: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 45px;
+        border-radius: 30px;
+    }
+    .moving-slides img{
+        height: 44px;
+        margin-top: -2px;
+    }
+    .moving-slides>.first div p{
+        font-size: 18px;
+        font-family: "new font";
+        margin: 0px 24px 0px 16px;
+        font-weight: bolder;
+    }
+    .moving-slides>.second{
+        width: 200%;
+        padding: 12px 24px;
+        justify-content: start;
+        align-items: start;
+        display: flex;
+        gap: 20px;
+        animation-name: move2;
+        animation-timing-function: linear;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes move2{
+        0%{
+             translate: -20%;
+        }
+        100%{
+            translate: 0%;        
+        }
+    }
+    .moving-slides>.second div{
+        border: 2px solid #f7f8f9;
+        color: rgb(119,125,146);
+        width: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 47px;
+        border-radius: 30px;
+    }
+    .moving-slides>.second div p{
+        font-size: 18px;
+        font-family: "new font";
+        margin: 0px 24px 0px 16px;
+        font-weight: bolder;
+    }
+    .moving-slides>.second .cart{
+        color: #f07d22;
+        border: 2px solid rgb(250,239,230);
+    }
+    
+    .text-btn button{
+        color: white;
+        padding: 15px;
+        background-color: rgb(240,123,34);
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        width: 170px;
+        font-weight: 900;
+    }
+    .text-btn a{
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .text-btn{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+    }
+
+
+    .third-container{
+        width: 100%;
+        background-position: 400px 370px;
+        background-size: 45%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 150px;
+    }
+    .third-container .first-text h2{
+        padding-bottom: 100px;
+        font-size: 28px;
+        width: 430px;
+    }
+    .third-container .first-text p{
+        font-size: 16px;
+        padding: 8px;
+        width: 120px;
+    }
+    .icons img{
+        height: 200px;
+    }
+
+
+    .fourth-container{
+        background-position: 270px 300px;
+        background-size: 30%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 180px;
+    }
+    .fourth-container .first-text h2{
+        font-size: 28px;
+        padding-bottom: 180px;
+        width: 460px;
+    }
+    .enterprenuer p{
+        font-size: 17px;
+        width: 200px;
+    }
+    .enterprenuer h3{
+        font-weight: 900;
+        font-size: 20px;
+        width: 250px;
+    }
+    .enterprenuer button{
+        padding: 17px;
+        font-size: 16px;
+        width: 170px;
+    }
+    .earn{
+        gap: 30px;
+        width: 223px;
+        margin-left: 505px;
+        margin-top: -350px;
+    }
+    .earn h3{
+        font-weight: 900;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .earn p{
+        font-size: 16px;
+    }
+    .earn a{
+        color: black;
+        font-size: 17px;
+    }
+    
+
+
+    .fifth-container{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .fifth-container .first-text h2{
+        font-size: 30px;
+        width: 500px;
+    }
+    .fifth-container .second-text{
+        padding-top: 40px;
+        height: 450px;
+    }
+    .border-text .icons img{
+        height: 18px;
+    }
+    .bitgo{
+        margin-top: 7px;
+        margin-left: 5px;
+    }
+    .squad{
+        margin-top: 40px;
+        margin-left: -455px;
+    }
+    .border{
+        display: flex;
+        gap: 40px;
+    }
+    .border-side{
+        width: 4px;
+        height: 20px;
+        margin-top: 5px;
+    }
+    .border-text{
+        margin-left: -10px;
+        width: 600px;
+    }
+    .border-text h3{
+        font-size: 20px;
+    }
+    .border-text p{
+        font-size: 18px;
+    }
+    .currencies{
+        padding-bottom: 60px;
+    }
+    
+.fifth-container .second-text button{
+    padding: 16px;
+    width: 180px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(240,123,34);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.fifth-container .second-text a{
+    font-size: 18px;
+}
+    
+
+
+    .sixth-container{
+        width: 100%;
+        background-position: 380px 380px;
+        background-size: 48%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 60px;
+    }
+    .sixth-container .first-text h2{
+        font-size: 29px;
+        width: 400px;
+        padding-bottom: 30px;
+        margin-top: 10px;
+    }
+    .sixth-container p{
+        font-size: 19px;
+        width: 290px;
+    }
+    .sixth-container .first-text p{
+        font-size: 16px;
+        width: 100px;
+    }
+
+
+    .seventh-container{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .seventh-container p{
+        font-size: 18px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .seventh-container img{
+        height: 8px;
+    }
+    .seventh-container button{
+        padding: 16px;
+        width: 140px;
+        margin-top: 35px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(29,31,29);
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+
+
+    .eight-container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .eight-container .box{
+        background-color: rgb(29,31,29);
+        background-image: url(assets/bg-cta.svg);
+        background-repeat: no-repeat;
+        background-size: 250%;
+        background-position: -600px 64px;
+        color: white;
+        height: 310px;
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .eight-container .box h2{
+        font-size: 38px;
+        width: 600px;
+        padding-bottom: 10px;
+    }
+    .eight-container .box p{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    
+    .eight-container .box button{
+       padding: 16px;
+       width: 200px;
+       margin-top: 35px;
+       border-radius: 10px;
+       border: none;
+       background-color: rgb(240,123,34);
+       color: white;
+       font-size: 16px;
+       font-weight: 600;
+    }
+
+
+
+    .ninth-container{
+        background-color: rgb(242,242,242);
+        padding-top: 120px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .ninth-container a{
+        text-decoration: none;
+        color: black;
+    }
+    .ninth-container .text1-icons{
+        display: flex;
+        gap: 15px;
+        color: white;
+    }
+    .ninth-container .text1-icons a{
+        font-size: 18px;
+        background-color: black;
+        padding: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: white;
+    }
+    .ninth-container .text-continer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding-bottom: 150px;
+    }
+    .ninth-container .text-continer .copyright a{
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .copyright{
+        padding-bottom: 50px;
+    }
+    #copyright{
+        font-size: 15px;
+    }
+    .ninth-container .text-continer .text1 span{
+        color: black;
+        font-size: 10px;
+    }
+    .text2{
+        display: grid;
+        grid-template-columns: 220px 240px;
+        grid-template-rows: 150px;
+    }
+    .text2 p{
+        font-size: 16px;
+    }
+    .text2 .bold{
+        font-size: 16px;
+    }
+    .last-p p{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 756px){
+    .container{
+        width: 100%;
+    }
+    .hamburger{
+        display: block;
+        font-size: 11px;
+    }
+    .hamburger p{
+        padding-bottom: 4px;
+    }
+    .hamburger .dot{
+        width: 35px;
+    }
+    .hamburger .dot2{
+        margin-top: 6px;
+        width: 32px;
+    }
+    img{
+        height: 12px;
+        margin-top: 5px;
+    }
+    .breadwave img{
+        height: 22px;
+        margin-left: -10px;
+    }
+    .first-container{
+        width: 100%;
+        padding-top: 30px;
+    }
+    nav{
+        padding-top: 0px;
+        height: 82px;
+    }
+    .text-container{
+        flex-direction: column;
+    }
+    .text-container h2{
+        font-size: 36px;
+        margin-top: -10px;
+        padding-bottom: 1px;
+        width: 300px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        width: 720px;
+        height: 430px;
+        padding: 23px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .explore{
+        width: 500px;
+    }
+    .explore p{
+        font-size: 18px;
+        background-size: 2.5%;
+        background-position: -1px 12px;
+    }
+    .explore .sell{
+        background-position: -1px 12px;
+    }
+    .explore .recharge{
+        background-position: -1px 12px;
+    }
+    .explore .watch{
+        background-position: -1px 12px;
+    }
+    .links a{
+        font-size: 18px;
+    }
+    input{
+        font-size: 18px;
+    }
+    input::placeholder{
+        font-size: 16px;
+    }
+    #firstname{
+        padding: 22px;
+    }
+    #lastname{
+        padding: 22px;
+    }
+    #email{
+        padding: 22px;
+    }
+    form button{
+        padding: 25px;  
+        font-size: 23px;
+    }
+    .form1{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding-top: 10px;
+    }
+    .form1-text{
+        font-size: 17px;
+    }
+
+
+
+
+    .second-container{
+        width: 100%;
+        background-position: 25px 500px;
+        background-size: 93%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 500px;
+    }   
+    .second-container .first-text h2{
+        font-size: 28px;
+        width: 720px;
+        padding-bottom: 70px;
+    }
+    .first-text p{
+        font-size: 16px;
+        width: 100px;
+    }
+    .text-p{
+        width: 720px;
+        font-size: 19px;
+    }
+    
+    .text-btn button{
+        color: white;
+        padding: 15px;
+        background-color: rgb(240,123,34);
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        width: 170px;
+        font-weight: 900;
+    }
+    .text-btn a{
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .text-btn{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+    }
+
+
+    .third-container{
+        background-position: 20px 500px;
+        background-size: 80%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 550px;
+    }
+    .third-container .first-text h2{
+        padding-bottom: 100px;
+        font-size: 28px;
+        width: 750px;
+    }
+    .third-container .first-text p{
+        font-size: 16px;
+        padding: 8px;
+        width: 120px;
+    }
+    .icons img{
+        height: 200px;
+    }
+
+
+    .fourth-container{
+        background-position: 270px 300px;
+        background-size: 30%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 180px;
+    }
+    .fourth-container .first-text h2{
+        font-size: 28px;
+        padding-bottom: 180px;
+        width: 460px;
+    }
+    .enterprenuer p{
+        font-size: 17px;
+        width: 200px;
+    }
+    .enterprenuer h3{
+        font-weight: 900;
+        font-size: 20px;
+        width: 250px;
+    }
+    .enterprenuer button{
+        padding: 17px;
+        font-size: 16px;
+        width: 170px;
+    }
+    .earn{
+        gap: 30px;
+        width: 223px;
+        margin-left: 505px;
+        margin-top: -350px;
+    }
+    .earn h3{
+        font-weight: 900;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .earn p{
+        font-size: 16px;
+    }
+    .earn a{
+        color: black;
+        font-size: 17px;
+    }
+    
+
+
+    .fifth-container{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .fifth-container .first-text h2{
+        font-size: 30px;
+        width: 500px;
+    }
+    .fifth-container .second-text{
+        padding-top: 40px;
+        height: 450px;
+    }
+    .border-text .icons img{
+        height: 18px;
+    }
+    .bitgo{
+        margin-top: 7px;
+        margin-left: 5px;
+    }
+    .squad{
+        margin-top: 40px;
+        margin-left: -455px;
+    }
+    .border{
+        display: flex;
+        gap: 40px;
+    }
+    .border-side{
+        width: 4px;
+        height: 20px;
+        margin-top: 5px;
+    }
+    .border-text{
+        margin-left: -10px;
+        width: 600px;
+    }
+    .border-text h3{
+        font-size: 20px;
+    }
+    .border-text p{
+        font-size: 18px;
+    }
+    .currencies{
+        padding-bottom: 60px;
+    }
+    
+.fifth-container .second-text button{
+    padding: 16px;
+    width: 180px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(240,123,34);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.fifth-container .second-text a{
+    font-size: 18px;
+}
+    
+
+
+    .sixth-container{
+        width: 100%;
+        background-position: 380px 380px;
+        background-size: 48%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 60px;
+    }
+    .sixth-container .first-text h2{
+        font-size: 29px;
+        width: 400px;
+        padding-bottom: 30px;
+        margin-top: 10px;
+    }
+    .sixth-container p{
+        font-size: 19px;
+        width: 290px;
+    }
+    .sixth-container .first-text p{
+        font-size: 16px;
+        width: 100px;
+    }
+
+
+    .seventh-container{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .seventh-container p{
+        font-size: 18px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .seventh-container img{
+        height: 8px;
+    }
+    .seventh-container button{
+        padding: 16px;
+        width: 140px;
+        margin-top: 35px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(29,31,29);
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+
+
+    .eight-container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .eight-container .box{
+        background-color: rgb(29,31,29);
+        background-image: url(assets/bg-cta.svg);
+        background-repeat: no-repeat;
+        background-size: 250%;
+        background-position: -600px 64px;
+        color: white;
+        height: 310px;
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .eight-container .box h2{
+        font-size: 38px;
+        width: 600px;
+        padding-bottom: 10px;
+    }
+    .eight-container .box p{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    
+    .eight-container .box button{
+       padding: 16px;
+       width: 200px;
+       margin-top: 35px;
+       border-radius: 10px;
+       border: none;
+       background-color: rgb(240,123,34);
+       color: white;
+       font-size: 16px;
+       font-weight: 600;
+    }
+
+
+
+    .ninth-container{
+        background-color: rgb(242,242,242);
+        padding-top: 120px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .ninth-container a{
+        text-decoration: none;
+        color: black;
+    }
+    .ninth-container .text1-icons{
+        display: flex;
+        gap: 15px;
+        color: white;
+    }
+    .ninth-container .text1-icons a{
+        font-size: 18px;
+        background-color: black;
+        padding: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: white;
+    }
+    .ninth-container .text-continer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding-bottom: 150px;
+    }
+    .ninth-container .text-continer .copyright a{
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .copyright{
+        padding-bottom: 50px;
+    }
+    #copyright{
+        font-size: 15px;
+    }
+    .ninth-container .text-continer .text1 span{
+        color: black;
+        font-size: 10px;
+    }
+    .text2{
+        display: grid;
+        grid-template-columns: 220px 240px;
+        grid-template-rows: 150px;
+    }
+    .text2 p{
+        font-size: 16px;
+    }
+    .text2 .bold{
+        font-size: 16px;
+    }
+    .last-p p{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+@media (max-width: 600px){
+    .container{
+        width: 100%;
+    }
+    .hamburger{
+        display: block;
+        font-size: 11px;
+    }
+    .hamburger p{
+        padding-bottom: 4px;
+    }
+    .hamburger .dot{
+        width: 35px;
+    }
+    .hamburger .dot2{
+        margin-top: 6px;
+        width: 32px;
+    }
+    img{
+        height: 12px;
+        margin-top: 5px;
+    }
+    .breadwave img{
+        height: 22px;
+        margin-left: -10px;
+    }
+    .first-container{
+        width: 100%;
+        padding-top: 30px;
+    }
+    nav{
+        padding-top: 0px;
+        height: 82px;
+    }
+    .text-container{
+        flex-direction: column;
+    }
+    .text-container h2{
+        font-size: 36px;
+        margin-top: -10px;
+        padding-bottom: 1px;
+        width: 300px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        width: 560px;
+        height: 430px;
+        padding: 23px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .explore{
+        width: 500px;
+    }
+    .explore p{
+        font-size: 18px;
+        background-size: 2.5%;
+        background-position: -1px 12px;
+    }
+    .explore .sell{
+        background-position: -1px 12px;
+    }
+    .explore .recharge{
+        background-position: -1px 12px;
+    }
+    .explore .watch{
+        background-position: -1px 12px;
+    }
+    .links a{
+        font-size: 18px;
+    }
+    input{
+        font-size: 18px;
+    }
+    input::placeholder{
+        font-size: 16px;
+    }
+    #firstname{
+        padding: 22px;
+    }
+    #lastname{
+        padding: 22px;
+    }
+    #email{
+        padding: 22px;
+    }
+    form button{
+        padding: 25px;  
+        font-size: 23px;
+    }
+    .form1{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding-top: 10px;
+    }
+    .form1-text{
+        font-size: 17px;
+    }
+
+
+
+
+    .second-container{
+        width: 100%;
+        background-position: 25px 500px;
+        background-size: 93%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 500px;
+    }   
+    .second-container .first-text h2{
+        font-size: 28px;
+        width: 520px;
+        padding-bottom: 70px;
+    }
+    .first-text p{
+        font-size: 16px;
+        width: 100px;
+    }
+    .text-p{
+        width: 520px;
+        font-size: 19px;
+    }
+    
+    .text-btn button{
+        color: white;
+        padding: 15px;
+        background-color: rgb(240,123,34);
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        width: 170px;
+        font-weight: 900;
+    }
+    .text-btn a{
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .text-btn{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+    }
+
+
+    .third-container{
+        background-position: 20px 550px;
+        background-size: 80%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 500px;
+    }
+    .third-container .first-text h2{
+        padding-bottom: 100px;
+        font-size: 28px;
+        width: 500px;
+    }
+    .third-container .first-text p{
+        font-size: 16px;
+        padding: 8px;
+        width: 120px;
+    }
+    .icons img{
+        height: 200px;
+    }
+
+
+    .fourth-container{
+        background-position: 170px 500px;
+        background-size: 50%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 180px;
+    }
+    .fourth-container .first-text h2{
+        font-size: 28px;
+        padding-bottom: 50px;
+        width: 460px;
+    }
+    .enterprenuer p{
+        font-size: 17px;
+        width: 550px;
+    }
+    .enterprenuer h3{
+        font-weight: 900;
+        font-size: 20px;
+        width: 550px;
+    }
+    .enterprenuer button{
+        padding: 17px;
+        font-size: 16px;
+        width: 170px;
+    }
+    .earn{
+        gap: 30px;
+        width: 800px;
+        text-align: start;
+        margin-left: 0px;
+        margin-top: 750px;
+    }
+    .earn h3{
+        font-weight: 900;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .earn p{
+        font-size: 16px;
+    }
+    .earn a{
+        color: black;
+        font-size: 17px;
+    }
+    
+
+
+    .fifth-container{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .fifth-container .first-text h2{
+        font-size: 30px;
+        width: 500px;
+    }
+    .fifth-container .second-text{
+        padding-top: 40px;
+        height: 450px;
+    }
+    .border-text .icons img{
+        height: 18px;
+    }
+    .bitgo{
+        margin-top: 7px;
+        margin-left: 5px;
+    }
+    .squad{
+        margin-top: 40px;
+        margin-left: -455px;
+    }
+    .border{
+        display: flex;
+        gap: 40px;
+    }
+    .border-side{
+        width: 4px;
+        height: 20px;
+        margin-top: 5px;
+    }
+    .border-text{
+        margin-left: -10px;
+        width: 600px;
+    }
+    .border-text h3{
+        font-size: 20px;
+    }
+    .border-text p{
+        font-size: 18px;
+    }
+    .currencies{
+        padding-bottom: 60px;
+    }
+    
+.fifth-container .second-text button{
+    padding: 16px;
+    width: 180px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(240,123,34);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.fifth-container .second-text a{
+    font-size: 18px;
+}
+    
+
+
+    .sixth-container{
+        width: 100%;
+        background-position: 15px 480px;
+        background-size: 88%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 360px;
+    }
+    .sixth-container .first-text h2{
+        font-size: 29px;
+        width: 650px;
+        padding-right: 30%;
+        padding-bottom: 0px;
+        margin-top: 10px;
+    }
+    .sixth-container p{
+        font-size: 19px;
+        width: 550px;
+        margin-top: -40px;
+    }
+    .sixth-container .first-text p{
+        font-size: 16px;
+        width: 100px;
+    }
+
+
+    .seventh-container{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .seventh-container p{
+        font-size: 18px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .seventh-container img{
+        height: 8px;
+    }
+    .seventh-container button{
+        padding: 16px;
+        width: 140px;
+        margin-top: 35px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(29,31,29);
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+
+
+    .eight-container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .eight-container .box{
+        background-color: rgb(29,31,29);
+        background-image: url(assets/bg-cta.svg);
+        background-repeat: no-repeat;
+        background-size: 250%;
+        background-position: -600px 64px;
+        color: white;
+        height: 310px;
+        padding-top: 30px;
+        padding-right: 20%;
+        padding-left: 20px;
+    }
+    .eight-container .box h2{
+        font-size: 33px;
+        width: 600px;
+        padding-bottom: 10px;
+    }
+    .eight-container .box p{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    
+    .eight-container .box button{
+       padding: 16px;
+       width: 200px;
+       margin-top: 35px;
+       border-radius: 10px;
+       border: none;
+       background-color: rgb(240,123,34);
+       color: white;
+       font-size: 16px;
+       font-weight: 600;
+    }
+
+
+
+    .ninth-container{
+        background-color: rgb(242,242,242);
+        padding-top: 120px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .ninth-container a{
+        text-decoration: none;
+        color: black;
+    }
+    .ninth-container .text1-icons{
+        display: flex;
+        gap: 15px;
+        color: white;
+    }
+    .ninth-container .text1-icons a{
+        font-size: 18px;
+        background-color: black;
+        padding: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: white;
+    }
+    .ninth-container .text-continer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding-bottom: 150px;
+    }
+    .ninth-container .text-continer .copyright a{
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .copyright{
+        padding-bottom: 50px;
+    }
+    #copyright{
+        font-size: 12px;
+    }
+    .ninth-container .text-continer .text1 span{
+        color: black;
+        font-size: 10px;
+    }
+    .text2{
+        display: grid;
+        grid-template-columns: 100px 1000px;
+        grid-template-rows: 150px;
+    }
+    .text2 p{
+        font-size: 16px;
+    }
+    .text2 .bold{
+        font-size: 16px;
+    }
+    .last-p p{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width : 430px){
+    .container{
+        width: 100%;
+    }
+    .hamburger{
+        display: block;
+        font-size: 11px;
+    }
+    .hamburger p{
+        padding-bottom: 4px;
+    }
+    .hamburger .dot{
+        width: 35px;
+    }
+    .hamburger .dot2{
+        margin-top: 6px;
+        width: 32px;
+    }
+    img{
+        height: 12px;
+        margin-top: 5px;
+    }
+    .breadwave img{
+        height: 22px;
+        margin-left: -10px;
+    }
+    .first-container{
+        width: 100%;
+        padding-top: 40px;
+    }
+    nav{
+        padding-top: 0px;
+        height: 82px;
+    }
+    .text-container{
+        flex-direction: column;
+    }
+    .text-container h2{
+        font-size: 36px;
+        margin-top: -10px;
+        padding-bottom: 1px;
+        width: 300px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        width: 390px;
+        height: 430px;
+        padding: 23px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .explore{
+        width: 360px;
+    }
+    .explore p{
+        font-size: 18px;
+        background-size: 4%;
+        background-position: 1px 12px;
+    }
+    .explore .sell{
+        background-position: 1px 12px;
+    }
+    .explore .recharge{
+        background-position: 1px 12px;
+    }
+    .explore .watch{
+        background-position: 1px 12px;
+    }
+    .links a{
+        font-size: 18px;
+    }
+    input{
+        font-size: 18px;
+    }
+    input::placeholder{
+        font-size: 16px;
+    }
+    #firstname{
+        padding: 22px;
+    }
+    #lastname{
+        padding: 22px;
+    }
+    #email{
+        padding: 22px;
+    }
+    form button{
+        padding: 25px;  
+        font-size: 23px;
+    }
+    .form1{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding-top: 10px;
+    }
+    .form1-text{
+        font-size: 17px;
+    }
+
+
+
+
+    .second-container{
+        width: 100%;
+        background-position: 14px 600px;
+        background-size: 93%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 70px;
+    }   
+    .second-container .first-text h2{
+        font-size: 28px;
+        width: 420px;
+        padding-bottom: 70px;
+    }
+    .first-text p{
+        font-size: 16px;
+        width: 100px;
+    }
+    .text-p{
+        width: 420px;
+        font-size: 19px;
+    }
+    
+    .moving-slides{
+        width: 100%;
+        left: 0;
+        height: 150px;
+        overflow: hidden;
+        margin-top: 410px;
+        letter-spacing: 0.3px;
+        font-weight: 600;
+    }
+    .moving-slides>.first{
+        width: 200%;
+        padding: 12px 24px;
+        justify-content: start;
+        align-items: center;
+        display: flex;
+        gap: 20px;  
+        animation-name: move;
+        animation-timing-function: linear;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+    
+    }
+    @keyframes move{
+        0%{
+             translate: 0%;
+        }
+        100%{
+            translate: -20%;        
+        }
+    }
+    .moving-slides>.first div{
+        border: 2px solid #f7f8f9;
+        color: rgb(119,125,146);
+        display: flex;
+        width: 200px;
+        justify-content: start;
+        align-items: center;
+        height: 45px;
+        border-radius: 30px;
+    }
+    .moving-slides img{
+        height: 44px;
+        margin-top: -2px;
+    }
+    .moving-slides>.first div p{
+        font-size: 18px;
+        font-family: "new font";
+        margin: 0px 20px 0px 26px;
+        width: 90px;
+        font-weight: bolder;
+    }
+    .moving-slides>.second{
+        width: 200%;
+        padding: 12px 24px;
+        justify-content: start;
+        align-items: start;
+        display: flex;
+        gap: 20px;
+        animation-name: move2;
+        animation-timing-function: linear;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes move2{
+        0%{
+             translate: -20%;
+        }
+        100%{
+            translate: 0%;        
+        }
+    }
+    .moving-slides>.second div{
+        border: 2px solid #f7f8f9;
+        color: rgb(119,125,146);
+        width: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 47px;
+        border-radius: 30px;
+    }
+    .moving-slides>.second div p{
+        font-size: 18px;
+        font-family: "new font";
+        margin: 0px 20px 0px 16px;
+        font-weight: bolder;
+    }
+    .moving-slides>.second .cart{
+        color: #f07d22;
+        border: 2px solid rgb(250,239,230);
+    }
+    
+    .text-btn button{
+        color: white;
+        padding: 15px;
+        background-color: rgb(240,123,34);
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        width: 170px;
+        font-weight: 900;
+    }
+    .text-btn a{
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .text-btn{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+    }
+
+
+    .third-container{
+        background-position: 20px 550px;
+        background-size: 80%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 350px;
+    }
+    .third-container .first-text h2{
+        padding-bottom: 60px;
+        font-size: 28px;
+        width: 400px;
+    }
+    .third-container .first-text p{
+        font-size: 16px;
+        padding: 8px;
+        width: 120px;
+    }
+    .icons img{
+        height: 200px;
+    }
+    .text-p{
+        width: 400px;
+    }
+
+
+    .fourth-container{
+        background-position: 120px 550px;
+        background-size: 50%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 130px;
+    }
+    .fourth-container .first-text h2{
+        font-size: 28px;
+        padding-bottom: 50px;
+        width: 360px;
+    }
+    .enterprenuer p{
+        font-size: 17px;
+        width: 350px;
+    }
+    .enterprenuer h3{
+        font-weight: 900;
+        font-size: 20px;
+        width: 350px;
+    }
+    .enterprenuer button{
+        padding: 17px;
+        font-size: 16px;
+        width: 170px;
+    }
+    .earn{
+        gap: 30px;
+        width: 360px;
+        text-align: start;
+        margin-left: 0px;
+        margin-top: 550px;
+    }
+    .earn h3{
+        font-weight: 900;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .earn p{
+        font-size: 16px;
+    }
+    .earn a{
+        color: black;
+        font-size: 17px;
+    }
+    
+
+
+    .fifth-container{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .fifth-container .first-text h2{
+        font-size: 30px;
+        width: 360px;
+    }
+    .fifth-container .second-text{
+        padding-top: 40px;
+        height: 600px;
+    }
+    .border-text .icons img{
+        height: 16px;
+    }
+    .paystack{
+        margin-top: 40px;
+        margin-left: -200px;
+    }
+    .bitgo{
+        margin-top: 40px;
+        margin-left: -5px;
+    }
+    .squad{
+        margin-top: 80px;
+        margin-left: -210px;
+    }
+    .border{
+        display: flex;
+        gap: 40px;
+    }
+    .border-side{
+        width: 4px;
+        height: 20px;
+        margin-top: 5px;
+    }
+    .border-text{
+        margin-left: -10px;
+        /* width: 600px; */
+    }
+    .border-text h3{
+        font-size: 20px;
+    }
+    .border-text p{
+        font-size: 18px;
+    }
+    .currencies{
+        padding-bottom: 60px;
+    }
+    
+.fifth-container .second-text button{
+    padding: 16px;
+    width: 180px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(240,123,34);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.button-link{
+    flex-direction: column;
+    margin-left: -100px;
+    gap: 20px;
+}
+.fifth-container .second-text a{
+    font-size: 18px;
+}
+    
+
+
+    .sixth-container{
+        width: 100%;
+        background-position: 15px 600px;
+        background-size: 88%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 300px;
+    }
+    .sixth-container .first-text h2{
+        font-size: 29px;
+        width: 450px;
+        padding-right: 30%;
+        padding-bottom: 0px;
+        margin-top: 10px;
+    }
+    .sixth-container p{
+        font-size: 19px;
+        width: 350px;
+        margin-top: -40px;
+    }
+    .sixth-container .first-text p{
+        font-size: 16px;
+        width: 100px;
+    }
+
+
+    .seventh-container{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .seventh-container p{
+        font-size: 18px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .seventh-container img{
+        height: 8px;
+    }
+    .seventh-container button{
+        padding: 16px;
+        width: 140px;
+        margin-top: 35px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(29,31,29);
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+
+
+    .eight-container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .eight-container .box{
+        background-color: rgb(29,31,29);
+        background-image: url(assets/bg-cta.svg);
+        background-repeat: no-repeat;
+        background-size: 250%;
+        background-position: -600px 64px;
+        color: white;
+        height: 390px;
+        padding-top: 30px;
+        padding-right: 20%;
+        padding-left: 20px;
+    }
+    .eight-container .box h2{
+        font-size: 33px;
+        width: 300px;
+        padding-bottom: 10px;
+    }
+    .eight-container .box p{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    
+    .eight-container .box button{
+       padding: 16px;
+       width: 200px;
+       margin-top: 35px;
+       border-radius: 10px;
+       border: none;
+       background-color: rgb(240,123,34);
+       color: white;
+       font-size: 16px;
+       font-weight: 600;
+    }
+
+
+
+    .ninth-container{
+        background-color: rgb(242,242,242);
+        padding-top: 120px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 100px;
+    }
+    .ninth-container a{
+        text-decoration: none;
+        color: black;
+    }
+    .ninth-container .text1-icons{
+        display: flex;
+        gap: 15px;
+        color: white;
+    }
+    .ninth-container .text1-icons a{
+        font-size: 18px;
+        background-color: black;
+        padding: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: white;
+    }
+    .ninth-container .text-continer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding-bottom: 150px;
+    }
+    .ninth-container .text-continer .copyright a{
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .copyright{
+        padding-bottom: 20px;
+    }
+    #copyright{
+        font-size: 12px;
+    }
+    .ninth-container .text-continer .text1 span{
+        color: black;
+        font-size: 10px;
+    }
+    .text2{
+        display: grid;
+        grid-template-columns: 100px 1000px;
+        grid-template-rows: 150px;
+        margin-left: -290px;
+        margin-top: 150px;
+    }
+    .text2 p{
+        font-size: 16px;
+    }
+    .text2 .bold{
+        font-size: 16px;
+    }
+    .last-p p{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    .last-p{
+        margin-top: -70px;
+    }
+}
+
+@media (max-width: 376px){
+    .container{
+        width: 100%;
+    }
+    .hamburger{
+        display: block;
+        font-size: 11px;
+    }
+    .hamburger p{
+        padding-bottom: 4px;
+    }
+    .hamburger .dot{
+        width: 35px;
+    }
+    .hamburger .dot2{
+        margin-top: 6px;
+        width: 32px;
+    }
+    img{
+        height: 12px;
+        margin-top: 5px;
+    }
+    .breadwave img{
+        height: 22px;
+        margin-left: -10px;
+    }
+    .first-container{
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+    nav{
+        padding-top: 0px;
+        height: 82px;
+    }
+    .text-container{
+        flex-direction: column;
+    }
+    .text-container h2{
+        font-size: 36px;
+        margin-top: -10px;
+        padding-bottom: 1px;
+        width: 300px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        width: 340px;
+        height: 430px;
+        padding: 23px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .explore{
+        width: 300px;
+    }
+    .explore p{
+        font-size: 18px;
+        background-size: 4.5%;
+        background-position: 1px 12px;
+    }
+    .explore .sell{
+        background-position: 1px 12px;
+    }
+    .explore .recharge{
+        background-position: 1px 20px;
+    }
+    .explore .watch{
+        background-position: 1px 20px;
+    }
+    .links a{
+        font-size: 18px;
+    }
+    input{
+        font-size: 18px;
+    }
+    input::placeholder{
+        font-size: 16px;
+    }
+    #firstname{
+        padding: 22px;
+    }
+    #lastname{
+        padding: 22px;
+    }
+    #email{
+        padding: 22px;
+    }
+    form button{
+        padding: 25px;  
+        font-size: 23px;
+    }
+    .form1{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding-top: 10px;
+    }
+    .form1-text{
+        font-size: 17px;
+    }
+
+
+
+
+    .second-container{
+        width: 100%;
+        background-position: 14px 600px;
+        background-size: 93%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 90px;
+    }   
+    .second-container .first-text h2{
+        font-size: 28px;
+        width: 320px;
+        padding-bottom: 70px;
+    }
+    .first-text p{
+        font-size: 16px;
+        width: 100px;
+    }
+    .text-p{
+        font-size: 18px;
+    }
+    .text-p p{
+        width: 320px;
+    }
+    
+    .text-btn button{
+        color: white;
+        padding: 15px;
+        background-color: rgb(240,123,34);
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        width: 170px;
+        font-weight: 900;
+    }
+    .text-btn a{
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .text-btn{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+    }
+
+
+    .third-container{
+        background-position: 20px 570px;
+        background-size: 80%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 350px;
+    }
+    .third-container .first-text h2{
+        padding-bottom: 60px;
+        font-size: 28px;
+        width: 320px;
+    }
+    .third-container .first-text p{
+        font-size: 16px;
+        padding: 8px;
+        width: 120px;
+    }
+    .icons img{
+        height: 200px;
+    }
+    .text-p{
+        width: 400px;
+    }
+
+
+    .fourth-container{
+        background-position: 100px 550px;
+        background-size: 50%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 130px;
+    }
+    .fourth-container .first-text h2{
+        font-size: 28px;
+        padding-bottom: 50px;
+        width: 330px;
+    }
+    .enterprenuer p{
+        font-size: 17px;
+        width: 330px;
+    }
+    .enterprenuer h3{
+        font-weight: 900;
+        font-size: 20px;
+        width: 330px;
+    }
+    .enterprenuer button{
+        padding: 17px;
+        font-size: 16px;
+        width: 170px;
+    }
+    .earn{
+        gap: 30px;
+        width: 330px;
+        text-align: start;
+        margin-left: 0px;
+        margin-top: 550px;
+    }
+    .earn h3{
+        font-weight: 900;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .earn p{
+        font-size: 16px;
+    }
+    .earn a{
+        color: black;
+        font-size: 17px;
+    }
+    
+
+
+    .fifth-container{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .fifth-container .first-text h2{
+        font-size: 30px;
+        width: 360px;
+    }
+    .fifth-container .second-text{
+        padding-top: 40px;
+        height: 650px;
+    }
+    .border-text .icons img{
+        height: 16px;
+    }
+    .paystack{
+        margin-top: 40px;
+        margin-left: -200px;
+    }
+    .bitgo{
+        margin-top: 40px;
+        margin-left: -5px;
+    }
+    .squad{
+        margin-top: 80px;
+        margin-left: -210px;
+    }
+    .border{
+        display: flex;
+        gap: 40px;
+    }
+    .border-side{
+        width: 4px;
+        height: 20px;
+        margin-top: 5px;
+    }
+    .border-text{
+        margin-left: -10px;
+        width: 600px;
+    }
+    .border-text h3{
+        font-size: 20px;
+    }
+    .border-text p{
+        font-size: 18px;
+    }
+    .currencies{
+        padding-bottom: 60px;
+    }
+    
+.fifth-container .second-text button{
+    padding: 16px;
+    width: 180px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(240,123,34);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.button-link{
+    flex-direction: column;
+    margin-left: -100px;
+    gap: 20px;
+}
+.fifth-container .second-text a{
+    font-size: 18px;
+}
+    
+
+
+    .sixth-container{
+        width: 100%;
+        background-position: 15px 600px;
+        background-size: 88%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 300px;
+    }
+    .sixth-container .first-text h2{
+        font-size: 29px;
+        width: 450px;
+        padding-right: 30%;
+        padding-bottom: 0px;
+        margin-top: 10px;
+    }
+    .sixth-container p{
+        font-size: 19px;
+        width: 350px;
+        margin-top: -40px;
+    }
+    .sixth-container .first-text p{
+        font-size: 16px;
+        width: 100px;
+    }
+
+
+    .seventh-container{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .seventh-container p{
+        font-size: 18px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .seventh-container img{
+        height: 8px;
+    }
+    .seventh-container button{
+        padding: 16px;
+        width: 140px;
+        margin-top: 35px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(29,31,29);
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+
+
+    .eight-container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .eight-container .box{
+        background-color: rgb(29,31,29);
+        background-image: url(assets/bg-cta.svg);
+        background-repeat: no-repeat;
+        background-size: 250%;
+        background-position: -600px 64px;
+        color: white;
+        height: 400px;
+        padding-top: 30px;
+        padding-right: 20%;
+        padding-left: 20px;
+    }
+    .eight-container .box h2{
+        font-size: 33px;
+        width: 300px;
+        padding-bottom: 10px;
+    }
+    .eight-container .box p{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    
+    .eight-container .box button{
+       padding: 16px;
+       width: 200px;
+       margin-top: 35px;
+       border-radius: 10px;
+       border: none;
+       background-color: rgb(240,123,34);
+       color: white;
+       font-size: 16px;
+       font-weight: 600;
+    }
+
+
+
+    .ninth-container{
+        background-color: rgb(242,242,242);
+        padding-top: 120px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 100px;
+    }
+    .ninth-container a{
+        text-decoration: none;
+        color: black;
+    }
+    .ninth-container .text1-icons{
+        display: flex;
+        gap: 15px;
+        color: white;
+    }
+    .ninth-container .text1-icons a{
+        font-size: 18px;
+        background-color: black;
+        padding: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: white;
+    }
+    .ninth-container .text-continer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding-bottom: 150px;
+    }
+    .ninth-container .text-continer .copyright a{
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .copyright{
+        padding-bottom: 20px;
+    }
+    #copyright{
+        font-size: 12px;
+    }
+    .ninth-container .text-continer .text1 span{
+        color: black;
+        font-size: 10px;
+    }
+    .text2{
+        display: grid;
+        grid-template-columns: 100px 1000px;
+        grid-template-rows: 150px;
+        margin-left: -290px;
+        margin-top: 150px;
+    }
+    .text2 p{
+        font-size: 16px;
+    }
+    .text2 .bold{
+        font-size: 16px;
+    }
+    .last-p p{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    .last-p{
+        margin-top: -70px;
+    }
+}
+
+@media (max-width: 320px){
+    .container{
+        width: 100%;
+    }
+    .hamburger{
+        display: block;
+        font-size: 11px;
+    }
+    .hamburger p{
+        padding-bottom: 4px;
+    }
+    .hamburger .dot{
+        width: 35px;
+    }
+    .hamburger .dot2{
+        margin-top: 6px;
+        width: 32px;
+    }
+    img{
+        height: 12px;
+        margin-top: 5px;
+    }
+    .breadwave img{
+        height: 22px;
+        margin-left: -10px;
+    }
+    .first-container{
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+    nav{
+        padding-top: 0px;
+        height: 82px;
+    }
+    .text-container{
+        flex-direction: column;
+    }
+    .text-container h2{
+        font-size: 36px;
+        margin-top: -10px;
+        padding-bottom: 1px;
+        width: 300px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        width: 280px;
+        height: 430px;
+        padding: 23px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .explore{
+        width: 280px;
+    }
+    .explore p{
+        font-size: 18px;
+        background-size: 4.5%;
+        background-position: 1px 12px;
+    }
+    .explore .sell{
+        background-position: 1px 12px;
+    }
+    .explore .recharge{
+        background-position: 1px 20px;
+    }
+    .explore .watch{
+        background-position: 1px 20px;
+    }
+    .links a{
+        font-size: 18px;
+    }
+    input{
+        font-size: 18px;
+    }
+    input::placeholder{
+        font-size: 16px;
+    }
+    #firstname{
+        padding: 22px;
+    }
+    #lastname{
+        padding: 22px;
+    }
+    #email{
+        padding: 22px;
+    }
+    form button{
+        padding: 25px;  
+        font-size: 23px;
+    }
+    .form1{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding-top: 10px;
+    }
+    .form1-text{
+        font-size: 15px;
+    }
+
+
+
+
+    .second-container{
+        width: 100%;
+        background-position: 14px 600px;
+        background-size: 93%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }   
+    .second-container .first-text h2{
+        font-size: 28px;
+        width: 290px;
+        padding-bottom: 70px;
+    }
+    .first-text p{
+        font-size: 16px;
+        width: 100px;
+    }
+    .text-p{
+        font-size: 18px;
+    }
+    .text-p p{
+        width: 290px;
+    }
+    
+    .text-btn button{
+        color: white;
+        padding: 15px;
+        background-color: rgb(240,123,34);
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        width: 170px;
+        font-weight: 900;
+    }
+    .text-btn a{
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .text-btn{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    
+    .moving-slides{
+        width: 100%;
+        left: 0;
+        height: 150px;
+        overflow: hidden;
+        margin-top: 300px;
+        letter-spacing: 0.3px;
+        font-weight: 600;
+    }
+    .moving-slides>.first{
+        width: 200%;
+        padding: 12px 24px;
+        justify-content: start;
+        align-items: center;
+        display: flex;
+        gap: 20px;  
+        animation-name: move;
+        animation-timing-function: linear;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+    
+    }
+    @keyframes move{
+        0%{
+             translate: 0%;
+        }
+        100%{
+            translate: -20%;        
+        }
+    }
+    .moving-slides>.first div{
+        border: 2px solid #f7f8f9;
+        color: rgb(119,125,146);
+        width: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 45px;
+        border-radius: 30px;
+    }
+    .moving-slides>.first div p{
+        font-size: 20px;
+        font-family: "new font";
+        margin: 0px 24px 0px 16px;
+        font-weight: bolder;
+    }
+    .moving-slides>.second{
+        width: 200%;
+        padding: 12px 24px;
+        justify-content: start;
+        align-items: start;
+        display: flex;
+        gap: 20px;
+        animation-name: move2;
+        animation-timing-function: linear;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes move2{
+        0%{
+             translate: -20%;
+        }
+        100%{
+            translate: 0%;        
+        }
+    }
+    .moving-slides>.second div{
+        border: 2px solid #f7f8f9;
+        color: rgb(119,125,146);
+        width: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 47px;
+        border-radius: 30px;
+    }
+    .moving-slides>.second div p{
+        font-size: 20px;
+        font-family: "new font";
+        margin: 0px 24px 0px 16px;
+        font-weight: bolder;
+    }
+    .moving-slides>.second .cart{
+        color: #f07d22;
+        border: 2px solid rgb(250,239,230);
+    }
+
+    .third-container{
+        background-position: 20px 670px;
+        background-size: 80%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 300px;
+    }
+    .third-container .first-text h2{
+        padding-bottom: 60px;
+        font-size: 28px;
+        width: 280px;
+    }
+    .third-container .first-text p{
+        font-size: 16px;
+        padding: 8px;
+        width: 120px;
+    }
+    .icons img{
+        height: 200px;
+    }
+    .text-p{
+        width: 100px;
+    }
+    .third-container button{
+        width:150px;
+    }
+
+
+    .fourth-container{
+        background-position: 15px 650px;
+        background-size: 90%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 130px;
+    }
+    .fourth-container .first-text h2{
+        font-size: 28px;
+        padding-bottom: 50px;
+        width: 280px;
+    }
+    .enterprenuer p{
+        font-size: 17px;
+        width: 250px;
+    }
+    .enterprenuer h3{
+        font-weight: 900;
+        font-size: 20px;
+        width: 330px;
+    }
+    .enterprenuer button{
+        padding: 17px;
+        font-size: 16px;
+        width: 170px;
+    }
+    .earn{
+        gap: 30px;
+        width: 280px;
+        text-align: start;
+        margin-left: 0px;
+        margin-top: 750px;
+    }
+    .earn h3{
+        font-weight: 900;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .earn p{
+        font-size: 16px;
+    }
+    .earn a{
+        color: black;
+        font-size: 17px;
+    }
+    
+
+
+    .fifth-container{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .fifth-container .first-text h2{
+        font-size: 30px;
+        width: 300px;
+    }
+    .fifth-container .second-text{
+        padding-top: 40px;
+        height: 780px;
+    }
+    .border-text .icons img{
+        height: 16px;
+    }
+    .paystack{
+        margin-top: 40px;
+        margin-left: -200px;
+    }
+    .bitgo{
+        margin-top: 40px;
+        margin-left: -5px;
+    }
+    .squad{
+        margin-top: 80px;
+        margin-left: -210px;
+    }
+    .border{
+        display: flex;
+        gap: 40px;
+    }
+    .border-side{
+        width: 8px;
+        height: 20px;
+        margin-top: 5px;
+    }
+    .border-text{
+        margin-left: -10px;
+        width: 600px;
+    }
+    .border-text h3{
+        font-size: 20px;
+    }
+    .border-text p{
+        font-size: 18px;
+    }
+    .currencies{
+        padding-bottom: 60px;
+    }
+    
+.fifth-container .second-text button{
+    padding: 16px;
+    width: 180px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(240,123,34);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.button-link{
+    flex-direction: column;
+    margin-left: 0px;
+    gap: 20px;
+}
+.fifth-container .second-text a{
+    font-size: 18px;
+}
+    
+
+
+    .sixth-container{
+        width: 100%;
+        background-position: 15px 700px;
+        background-size: 88%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 200px;
+    }
+    .sixth-container .first-text h2{
+        font-size: 29px;
+        width: 350px;
+        padding-right: 30%;
+        padding-bottom: 0px;
+        margin-top: 10px;
+    }
+    .sixth-container p{
+        font-size: 19px;
+        width: 270px;
+        margin-top: -40px;
+    }
+    .sixth-container .first-text p{
+        font-size: 16px;
+        width: 100px;
+    }
+
+
+    .seventh-container{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .seventh-container p{
+        font-size: 18px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .seventh-container img{
+        height: 8px;
+    }
+    .seventh-container button{
+        padding: 16px;
+        width: 140px;
+        margin-top: 35px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(29,31,29);
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+
+
+    .eight-container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .eight-container .box{
+        background-color: rgb(29,31,29);
+        background-image: url(assets/bg-cta.svg);
+        background-repeat: no-repeat;
+        background-size: 250%;
+        background-position: -600px 64px;
+        color: white;
+        height: 450px;
+        padding-top: 30px;
+        padding-right: 20%;
+        padding-left: 20px;
+    }
+    .eight-container .box h2{
+        font-size: 33px;
+        width: 250px;
+        padding-bottom: 10px;
+    }
+    .eight-container .box p{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    
+    .eight-container .box button{
+       padding: 16px;
+       width: 200px;
+       margin-top: 35px;
+       border-radius: 10px;
+       border: none;
+       background-color: rgb(240,123,34);
+       color: white;
+       font-size: 16px;
+       font-weight: 600;
+    }
+
+
+
+    .ninth-container{
+        background-color: rgb(242,242,242);
+        padding-top: 120px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 100px;
+    }
+    .ninth-container a{
+        text-decoration: none;
+        color: black;
+    }
+    .ninth-container .text1-icons{
+        display: flex;
+        gap: 15px;
+        color: white;
+    }
+    .ninth-container .text1-icons a{
+        font-size: 16px;
+        background-color: black;
+        padding: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: white;
+    }
+    .ninth-container .text-continer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding-bottom: 150px;
+    }
+    .ninth-container .text-continer .copyright a{
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .copyright{
+        padding-bottom: 20px;
+    }
+    #copyright{
+        font-size: 12px;
+    }
+    .ninth-container .text-continer .text1 span{
+        color: black;
+        font-size: 10px;
+    }
+    .text2{
+        display: grid;
+        grid-template-columns: 100px 1000px;
+        grid-template-rows: 150px;
+        margin-left: -290px;
+        margin-top: 150px;
+    }
+    .text2 p{
+        font-size: 16px;
+    }
+    .text2 .bold{
+        font-size: 16px;
+    }
+    .last-p p{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    .last-p{
+        margin-top: -70px;
+    }
+}

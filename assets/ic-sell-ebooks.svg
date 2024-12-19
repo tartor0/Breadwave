@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <g id="ic-sell-ebooks" transform="translate(-164 -1230)">
+    <rect id="Rectangle_4346" data-name="Rectangle 4346" width="42" height="42" rx="21" transform="translate(164 1230)" fill="#fbb56c" opacity="0.1"/>
+    <path id="Book-open" d="M8.727,3.493C5.817.584,2.909.584,0,.584V13.675c2.91,0,5.819,0,8.727,2.909,2.91-2.909,5.819-2.909,8.727-2.909V.584C14.545.584,11.636.584,8.727,3.493Z" transform="translate(176 1242.416)" fill="#534d49"/>
+  </g>
+</svg>
