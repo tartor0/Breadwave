@@ -65,7 +65,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     height: 70px;
-    padding-top: 70px;
+    padding-top: 50px;
     position: fixed;
     background-color: transparent;
     transition: background-color 0.4s ease-in-out;
@@ -972,7 +972,7 @@ input:focus::placeholder{
         gap: 20px;  
         animation-name: move;
         animation-timing-function: linear;
-        animation-duration: 15s;
+        animation-duration: 7s;
         animation-iteration-count: infinite;
     
     }
@@ -1009,7 +1009,7 @@ input:focus::placeholder{
         gap: 20px;
         animation-name: move2;
         animation-timing-function: linear;
-        animation-duration: 15s;
+        animation-duration: 7s;
         animation-iteration-count: infinite;
     }
     @keyframes move2{
@@ -1385,7 +1385,7 @@ input:focus::placeholder{
         gap: 20px;  
         animation-name: move;
         animation-timing-function: linear;
-        animation-duration: 15s;
+        animation-duration: 7s;
         animation-iteration-count: infinite;
     
     }
@@ -1426,7 +1426,7 @@ input:focus::placeholder{
         gap: 20px;
         animation-name: move2;
         animation-timing-function: linear;
-        animation-duration: 15s;
+        animation-duration: 7s;
         animation-iteration-count: infinite;
     }
     @keyframes move2{
@@ -2467,7 +2467,7 @@ input:focus::placeholder{
         gap: 20px;  
         animation-name: move;
         animation-timing-function: linear;
-        animation-duration: 15s;
+        animation-duration: 7s;
         animation-iteration-count: infinite;
     
     }
@@ -2508,7 +2508,7 @@ input:focus::placeholder{
         gap: 20px;
         animation-name: move2;
         animation-timing-function: linear;
-        animation-duration: 15s;
+        animation-duration: 7s;
         animation-iteration-count: infinite;
     }
     @keyframes move2{
@@ -3869,7 +3869,7 @@ input:focus::placeholder{
         gap: 20px;  
         animation-name: move;
         animation-timing-function: linear;
-        animation-duration: 15s;
+        animation-duration: 7s;
         animation-iteration-count: infinite;
     
     }
@@ -3911,7 +3911,7 @@ input:focus::placeholder{
         gap: 20px;
         animation-name: move2;
         animation-timing-function: linear;
-        animation-duration: 15s;
+        animation-duration: 7s;
         animation-iteration-count: infinite;
     }
     @keyframes move2{
@@ -4118,7 +4118,7 @@ input:focus::placeholder{
         background-size: 88%;
         padding-left: 20px;
         padding-right: 20px;
-        padding-bottom: 300px;
+        padding-bottom: 370px;
     }
     .sixth-container .first-text h2{
         font-size: 29px;
@@ -4176,7 +4176,7 @@ input:focus::placeholder{
         background-size: 250%;
         background-position: -600px 64px;
         color: white;
-        height: 390px;
+        height: 430px;
         padding-top: 30px;
         padding-right: 20%;
         padding-left: 20px;
@@ -4577,7 +4577,6 @@ input:focus::placeholder{
         background-size: 88%;
         padding-left: 20px;
         padding-right: 20px;
-        padding-bottom: 300px;
     }
     .sixth-container .first-text h2{
         font-size: 29px;
@@ -4635,7 +4634,6 @@ input:focus::placeholder{
         background-size: 250%;
         background-position: -600px 64px;
         color: white;
-        height: 400px;
         padding-top: 30px;
         padding-right: 20%;
         padding-left: 20px;
@@ -5126,7 +5124,6 @@ input:focus::placeholder{
         background-size: 88%;
         padding-left: 20px;
         padding-right: 20px;
-        padding-bottom: 200px;
     }
     .sixth-container .first-text h2{
         font-size: 29px;
@@ -5184,7 +5181,7 @@ input:focus::placeholder{
         background-size: 250%;
         background-position: -600px 64px;
         color: white;
-        height: 450px;
+        height: 480px;
         padding-top: 30px;
         padding-right: 20%;
         padding-left: 20px;
